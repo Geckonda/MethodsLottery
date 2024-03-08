@@ -47,13 +47,12 @@ function run() {
     if (basket.length == methods.length - 1) {
       clearInterval(myInterval);
       content.classList.remove("launched");
-      content.style.border = "0px solid #a499b3";
       [...document.querySelectorAll(".item")].map((it) => {
         if (!it.classList.contains("dull")) it.classList.add("active");
       });
       rebootBtn.style.display = "block";
     }
-  }, 500);
+  }, 1500);
 }
 
 function createItems() {
