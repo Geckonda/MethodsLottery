@@ -143,6 +143,9 @@ body {
   body{
     font-size: 20px;
   }
+  .btn{
+    padding: 0.5em 1em;
+  }
   .field{
     height: 50vh;
   }
@@ -150,5 +153,22 @@ body {
 @media (max-width:385px) {
   body{
     font-size: 15px;
+  }
+    .field{
+    height: 40vh;
+  }
+  .btn{
+    padding: 0.5em 1em;
+  }
+}
+@media (max-height:600px) {
+  body{
+    font-size: 20px;
+  }
+    .field{
+    height: 80vh;
+  }
+  .btn{
+    padding: 0.5em 1em;
   }
 }
